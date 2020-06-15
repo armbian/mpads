@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "serial-mux")(type "KiCad")(uri "${KIPRJMOD}/serial-mux.pretty")(options "")(descr ""))
+)

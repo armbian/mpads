@@ -1,0 +1,40 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>KiCad BOM Example 5</title>
+    </head>
+    <body>
+    <h1>C:\Users\qarkraj\Documents\GitHub\mpads\serial-mux\serial-mux.kicad_sch</h1>
+    <p>15.06.2020 14:37:35</p>
+    <p>Eeschema (5.99.0-1939-g8bd9b2671)</p>
+    <p><b>Component Count:</b>84</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
+    <tr><td>C101, C102, C103, C104</td><td>4</td><td>100n</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>D1, D2, D3, D4, D5, D6, D7, D8</td><td>8</td><td>RED</td><td>Device:LED_Small_ALT</td><td>Diode_SMD:D_0805_2012Metric</td><td>Light emitting diode, small symbol, filled shape</td><td></td></tr>
+    <tr><td>FID101, FID102, FID103, FID104</td><td>4</td><td>Fiducial</td><td>Mechanical:Fiducial</td><td>Fiducial:Fiducial_1mm_Mask2mm</td><td>Fiducial Marker</td><td></td></tr>
+    <tr><td>H1, H2, H3, H4</td><td>4</td><td>MountingHole</td><td>Mechanical:MountingHole</td><td>MountingHole:MountingHole_3.2mm_M3</td><td>Mounting Hole without connection</td><td></td></tr>
+    <tr><td>J1</td><td>1</td><td>VIN</td><td>Connector:Screw_Terminal_01x02</td><td>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal</td><td>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J2, J4, J6, J7, J8, J9, J10, J11</td><td>8</td><td>PORT0</td><td>Connector_Generic:Conn_01x04</td><td>Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</td><td>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J3</td><td>1</td><td>RPI</td><td>Connector_Generic:Conn_02x05_Odd_Even</td><td>Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical</td><td>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J5</td><td>1</td><td>PORT0</td><td>Connector_Generic:Conn_01x04</td><td>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</td><td>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J12</td><td>1</td><td>Conn_01x03</td><td>Connector_Generic:Conn_01x03</td><td>Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J13</td><td>1</td><td>Conn_02x03_Counter_Clockwise</td><td>Connector_Generic:Conn_02x03_Odd_Even</td><td>Connector_PinHeader_2.00mm:PinHeader_2x03_P2.00mm_Vertical</td><td>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>Q1, Q2, Q5, Q6, Q9, Q10, Q13, Q14</td><td>8</td><td>AO4407A</td><td>Transistor_FET:IRF7404</td><td>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</td><td>-6.7A Id, -20V Vds, P-Channel HEXFET Power MOSFET, SO-8</td><td></td></tr>
+    <tr><td>Q3, Q4, Q7, Q8, Q11, Q12, Q15, Q16</td><td>8</td><td>AO3400A</td><td>Transistor_FET:IRLML2060</td><td>Package_TO_SOT_SMD:SOT-23</td><td>1.2A Id, 60V Vds, N-Channel MOSFET, 480mOhm Rds, SOT-23</td><td></td></tr>
+    <tr><td>R1, R2, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24, R25, R26, R27, R28</td><td>26</td><td>10k</td><td>Device:R_Small</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R3, R4</td><td>2</td><td>2k2</td><td>Device:R_Small</td><td>Resistor_SMD:R_0805_2012Metric</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>SYM101</td><td>1</td><td>ESD-Logo_6.6x6mm_SilkScreen</td><td>Graphic:SYM_ESD_Small</td><td>Symbol:ESD-Logo_6.6x6mm_SilkScreen</td><td>ESD warning/"Do not touch" symbol, small</td><td></td></tr>
+    <tr><td>SYM102</td><td>1</td><td>WEEE-Logo_4.2x6mm_SilkScreen</td><td>Graphic:SYM_ESD_Small</td><td>Symbol:WEEE-Logo_4.2x6mm_SilkScreen</td><td>ESD warning/"Do not touch" symbol, small</td><td></td></tr>
+    <tr><td>U1</td><td>1</td><td>MCP23017_SS</td><td>Interface_Expansion:MCP23017_SS</td><td>Package_SO:SSOP-28_5.3x10.2mm_P0.65mm</td><td>16-bit I/O expander, I2C, interrupts, w pull-ups, SSOP-28</td><td></td></tr>
+    <tr><td>U2</td><td>1</td><td>74HC4511D.652</td><td>4xxx_IEEE:4511</td><td>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</td><td></td><td></td></tr>
+    <tr><td>U3</td><td>1</td><td>KW1-361CGA</td><td>Display_Character:HDSP-7403</td><td>Display_7Segment:HDSP-7401</td><td>One digit 7 segment yellow, common cathode</td><td></td></tr>
+    <tr><td>U4</td><td>1</td><td>74HC238</td><td>74xx_IEEE:74HC238</td><td>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</td><td></td><td></td></tr>
+    <tr><td>U5</td><td>1</td><td>74HC151</td><td>74xx:74LS151</td><td>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</td><td>Multiplexer 8 to 1</td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    

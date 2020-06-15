@@ -1,4 +1,4 @@
-update=15.06.2020 13:58:14
+update=15.06.2020 14:15:34
 version=1
 last_client=kicad
 [general]
@@ -14,8 +14,6 @@ LibDir=
 [eeschema/libraries]
 [SchematicFrame]
 version=1
-[sheetnames]
-1=7795631b-38d1-4de1-b9d1-bde8fe9be5b2:
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -368,3 +366,5 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
+[sheetnames]
+1=cfd0839f-b1e8-46ab-a569-cc3d8e09bac3:
