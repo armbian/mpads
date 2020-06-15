@@ -1,7 +1,7 @@
 # M.P.A.D.S
 
 
-<h3 align=center><a href=#serial-mux-board-revc><img src="images/mpads.jpg" alt="Assembled device" width="50%"></a><br><br>
+<h3 align=center><a href=#mpads><img src="images/mpads.jpg" alt="Assembled device" width="50%"></a><br><br>
 Multiple Power And Data Switch</h3>
 
 ## Serial MUX board revC
