@@ -1,4 +1,4 @@
-update=Sunday, 14 June 2020 at 23:31:56
+update=15.06.2020 13:41:32
 version=1
 last_client=kicad
 [general]
@@ -12,19 +12,9 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=Printouts
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
-[ModEditFrame]
-version=1
 [SchematicFrame]
+version=1
+[ModEditFrame]
 version=1
 [pcbnew]
 version=1
@@ -355,4 +345,26 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [sheetnames]
-1=70485e4f-3750-4ad3-9b5b-153842e4fac4:
+1=7795631b-38d1-4de1-b9d1-bde8fe9be5b2:
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=assembly/
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+SubpartIdSeparator=0
+SubpartFirstId=65
+LabSize=50
+TextOffsetRatio=0.3
+LineThickness=6
+BusThickness=12
+WireThickness=6
+PinSymbolSize=25
+JunctionSize=40
+FieldNameTemplates=(templatefields)
+ERC_TestSimilarLabels=1
+ERC_CheckUniqueGlobalLabels=1
+ERC_CheckBusDriverConflicts=1
+ERC_CheckBusEntryConflicts=1
+ERC_CheckBusToBusConflicts=1
+ERC_CheckBusToNetConflicts=1

@@ -29,4 +29,5 @@ _autosave-*
 *.csv
 
 # Intermediate CAM files
-CAM/*
+*.g*
+*.drl
