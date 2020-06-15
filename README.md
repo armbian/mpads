@@ -1,4 +1,4 @@
-# M.P.A.D.S
+# MPADS
 
 
 <h3 align=center><a href=#mpads><img src="images/mpads.jpg" alt="Assembled device" width="50%"></a><br><br>
