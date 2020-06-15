@@ -1,0 +1,32 @@
+ For PCBs designed using KiCad: http://www.kicad-pcb.org/
+# Format documentation: http://kicad-pcb.org/help/file-formats/
+
+# OSX files/folders
+.AppleDouble
+.DS_Store
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*-bak
+*~
+_autosave-*
+*.tmp
+*-cache.lib
+*-rescue.lib
+*-save.pro
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
+
+# Intermediate CAM files
+CAM/*
