@@ -26,8 +26,12 @@ _autosave-*
 
 # Exported BOM files
 *.xml
+*.csv
 
 # Intermediate CAM files
 *.g*
 *.drl
 serial-mux/assembly/create.py
+
+# Other
++serial-mux/assembly/*.csv
