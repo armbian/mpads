@@ -1,6 +1,6 @@
-(kicad_sch (version 20200512) (host eeschema "(5.99.0-1846-ga8c2d17d6)")
+(kicad_sch (version 20200608) (host eeschema "(5.99.0-1946-g60915fbc7)")
 
-  (page 2 2)
+  (page 1 3)
 
   (paper "A4")
 
@@ -1007,6 +1007,7 @@
   )
 
   (symbol (lib_id "power:VCC") (at 43.18 85.09 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "b057ceb6-e5d9-442f-bb1e-5687f793fac7")
     (property "Reference" "#PWR0110" (id 0) (at 43.18 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1021,6 +1022,7 @@
   )
 
   (symbol (lib_id "power:VCC") (at 63.5 31.75 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "d684436b-66bf-4b4a-b58a-48e47ede037e")
     (property "Reference" "#PWR0108" (id 0) (at 63.5 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1035,6 +1037,7 @@
   )
 
   (symbol (lib_id "power:VCC") (at 95.885 31.115 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "7c228cba-2274-46fe-9b53-331d0331c2d1")
     (property "Reference" "#PWR0106" (id 0) (at 95.885 34.925 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1049,6 +1052,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 43.18 109.22 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "b196c9ab-59f2-47b6-b3e2-7d283d0cad27")
     (property "Reference" "#PWR0104" (id 0) (at 43.18 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1063,6 +1067,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 63.5 41.91 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "ecf73a16-42b6-4ce7-99af-d8cf2430004d")
     (property "Reference" "#PWR0103" (id 0) (at 63.5 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1077,6 +1082,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 95.885 41.275 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "95aa4e8c-c7af-488b-bf19-3eec5e9fb4c4")
     (property "Reference" "#PWR0102" (id 0) (at 95.885 47.625 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1091,6 +1097,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 122.555 41.275 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "6a7dd4ef-823c-4704-bde1-ca9710612f65")
     (property "Reference" "#PWR0109" (id 0) (at 122.555 47.625 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1105,6 +1112,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 179.07 113.665 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "35baf8f0-4d03-4be3-bfc4-0f677e587cae")
     (property "Reference" "#PWR0105" (id 0) (at 179.07 120.015 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1119,6 +1127,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 179.705 36.195 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "72a212a3-f89e-442b-8c19-d78e2be2d977")
     (property "Reference" "#PWR0113" (id 0) (at 179.705 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1133,6 +1142,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 179.705 55.245 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "893530c3-600a-4082-ac4d-3ce1418e8115")
     (property "Reference" "#PWR0115" (id 0) (at 179.705 61.595 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1147,6 +1157,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 179.705 74.295 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "c3532f5d-5698-41b7-b285-36d964071db6")
     (property "Reference" "#PWR0114" (id 0) (at 179.705 80.645 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1161,6 +1172,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 179.705 93.98 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "a97437e6-044d-45e5-890b-c85d81f59d89")
     (property "Reference" "#PWR0107" (id 0) (at 179.705 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1175,6 +1187,7 @@
   )
 
   (symbol (lib_name "Device:C_Small_1") (lib_id "Device:C_Small") (at 63.5 36.195 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "45cc6203-ddd8-4871-8ba1-52c443bf1558")
     (property "Reference" "C201" (id 0) (at 65.8242 35.0456 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1191,6 +1204,7 @@
   )
 
   (symbol (lib_name "Device:C_Small_2") (lib_id "Device:C_Small") (at 74.295 36.195 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "7e85245e-9b8d-4d54-a3d2-3065a99c1247")
     (property "Reference" "C202" (id 0) (at 76.6192 35.0456 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1207,6 +1221,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 95.885 35.56 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "41e27701-62db-428d-ba62-5cc175247216")
     (property "Reference" "C203" (id 0) (at 93.5608 34.4106 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -1223,6 +1238,7 @@
   )
 
   (symbol (lib_id "74xGxx:74AHC1G14") (at 99.06 97.79 180) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "b1a4de02-5502-41ce-a21a-18ab312ca3bd")
     (property "Reference" "U202" (id 0) (at 106.68 94.615 0))
     (property "Value" "74AHC1G14" (id 1) (at 109.22 99.695 0)
@@ -1237,6 +1253,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 36.195 37.465 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "8b070f2b-d8e0-48c7-8842-39af4c5641dd")
     (property "Reference" "JP201" (id 0) (at 38.227 26.9048 0))
     (property "Value" "PORTx" (id 1) (at 38.227 29.2035 0))
@@ -1249,6 +1266,7 @@
   )
 
   (symbol (lib_id "Device:Q_DUAL_NMOS_S1G1D2S2G2D1") (at 92.075 89.535 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "97e4a511-b6cb-49ac-95e8-30f30e2e46e7")
     (property "Reference" "Q201" (id 0) (at 92.075 83.1786 90))
     (property "Value" "NX7002AKS" (id 1) (at 92.075 83.178 90)
@@ -1263,6 +1281,7 @@
   )
 
   (symbol (lib_id "Device:Q_DUAL_NMOS_S1G1D2S2G2D1") (at 92.075 114.3 270) (mirror x) (unit 2)
+    (in_bom yes) (on_board yes)
     (uuid "0ecb72b9-2d95-473b-896a-ae4d9a5152e0")
     (property "Reference" "Q201" (id 0) (at 92.075 107.9436 90))
     (property "Value" "NX7002AKS" (id 1) (at 92.075 107.943 90)
@@ -1277,6 +1296,7 @@
   )
 
   (symbol (lib_id "IDTQS4A201:IDTQS4A201") (at 108.585 35.56 0) (unit 6)
+    (in_bom yes) (on_board yes)
     (uuid "2cd4e428-3c4e-4aa0-9196-dfae47ca0a14")
     (property "Reference" "U201" (id 0) (at 108.585 26.2698 0))
     (property "Value" "IDTQS4A201" (id 1) (at 108.585 28.5685 0))
@@ -1289,6 +1309,7 @@
   )
 
   (symbol (lib_id "IDTQS4A201:IDTQS4A201") (at 191.77 111.125 0) (unit 5)
+    (in_bom yes) (on_board yes)
     (uuid "11afc4e2-0b7c-4de5-a5ea-c6e2e4667f82")
     (property "Reference" "U201" (id 0) (at 191.77 101.8348 0))
     (property "Value" "IDTQS4A201" (id 1) (at 191.77 104.1335 0))
@@ -1301,6 +1322,7 @@
   )
 
   (symbol (lib_id "IDTQS4A201:IDTQS4A201") (at 192.405 33.655 0) (unit 3)
+    (in_bom yes) (on_board yes)
     (uuid "0a3cb02d-63ae-46e4-9ea7-1a62edf31518")
     (property "Reference" "U201" (id 0) (at 192.405 24.3648 0))
     (property "Value" "IDTQS4A201" (id 1) (at 192.405 26.6635 0))
@@ -1313,6 +1335,7 @@
   )
 
   (symbol (lib_id "IDTQS4A201:IDTQS4A201") (at 192.405 52.705 0) (unit 2)
+    (in_bom yes) (on_board yes)
     (uuid "f59dd5b7-6caf-4787-892f-71c995cd5f5b")
     (property "Reference" "U201" (id 0) (at 192.405 43.4148 0))
     (property "Value" "IDTQS4A201" (id 1) (at 192.405 45.7135 0))
@@ -1325,6 +1348,7 @@
   )
 
   (symbol (lib_id "IDTQS4A201:IDTQS4A201") (at 192.405 71.755 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "1f9f28aa-1b74-4432-ba30-d9c97a2dab5d")
     (property "Reference" "U201" (id 0) (at 192.405 62.4648 0))
     (property "Value" "IDTQS4A201" (id 1) (at 192.405 64.7635 0))
@@ -1337,6 +1361,7 @@
   )
 
   (symbol (lib_id "IDTQS4A201:IDTQS4A201") (at 192.405 91.44 0) (unit 4)
+    (in_bom yes) (on_board yes)
     (uuid "d87f665c-e298-4a92-bb6e-ff22444ce2c3")
     (property "Reference" "U201" (id 0) (at 192.405 82.1498 0))
     (property "Value" "IDTQS4A201" (id 1) (at 192.405 84.4485 0))
@@ -1349,6 +1374,7 @@
   )
 
   (symbol (lib_name "47219-2001:47219-2001_2") (lib_id "47219-2001:47219-2001") (at 58.42 94.615 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "cbbb4300-2d8e-40f5-a40b-652a41a0fd44")
     (property "Reference" "J201" (id 0) (at 58.42 80.2132 0))
     (property "Value" "47219-2001" (id 1) (at 58.42 82.5246 0))

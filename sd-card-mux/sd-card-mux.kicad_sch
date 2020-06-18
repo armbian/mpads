@@ -1,6 +1,6 @@
-(kicad_sch (version 20200512) (host eeschema "(5.99.0-1846-ga8c2d17d6)")
+(kicad_sch (version 20200608) (host eeschema "(5.99.0-1946-g60915fbc7)")
 
-  (page 1 2)
+  (page 1 3)
 
   (paper "A")
 
@@ -481,13 +481,13 @@
   (junction (at 217.17 98.425))
   (junction (at 224.79 47.625))
 
-  (no_connect (at 224.79 41.275))
   (no_connect (at 237.49 33.655))
+  (no_connect (at 237.49 43.815))
+  (no_connect (at 224.79 36.195))
   (no_connect (at 237.49 36.195))
   (no_connect (at 237.49 41.275))
-  (no_connect (at 224.79 36.195))
+  (no_connect (at 224.79 41.275))
   (no_connect (at 224.79 38.735))
-  (no_connect (at 237.49 43.815))
 
   (wire (pts (xy 62.865 26.035) (xy 70.485 26.035))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -697,6 +697,7 @@
   )
 
   (symbol (lib_id "power:VCC") (at 217.17 66.675 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "c86c8388-9e7d-409d-b943-77a32cc58785")
     (property "Reference" "#PWR0118" (id 0) (at 217.17 70.485 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -711,6 +712,7 @@
   )
 
   (symbol (lib_id "power:VCC") (at 224.79 33.02 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "e4fdb1c3-b1bd-4b07-9fcb-7286b5064f18")
     (property "Reference" "#PWR0116" (id 0) (at 224.79 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -725,6 +727,7 @@
   )
 
   (symbol (lib_id "power:VCC") (at 251.46 76.835 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "fa65a856-10b0-4b3f-9f3c-44e5951259c8")
     (property "Reference" "#PWR0112" (id 0) (at 251.46 80.645 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -739,6 +742,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 217.17 98.425 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "79691f41-9a41-49c0-ad95-b495d729677b")
     (property "Reference" "#PWR0101" (id 0) (at 217.17 104.775 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -753,6 +757,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 224.79 47.625 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "86e0f457-8459-48df-a8e1-0461e9c6fe0f")
     (property "Reference" "#PWR0117" (id 0) (at 224.79 53.975 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -767,6 +772,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 251.46 86.995 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "360b3b74-ad56-480d-bb13-3c3edd82f94b")
     (property "Reference" "#PWR0111" (id 0) (at 251.46 93.345 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -781,6 +787,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 300.99 242.57 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "cff1bd8c-64e6-4b31-96d8-1e604171e160")
     (property "Reference" "MH101" (id 0) (at 303.5301 242.57 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -797,6 +804,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 300.99 247.65 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "be35799e-8e8f-41d8-b8c9-86d271d480bb")
     (property "Reference" "MH102" (id 0) (at 303.5301 247.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -813,6 +821,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 300.99 252.73 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "34a773b4-4601-4fc3-9117-1d11ce50328e")
     (property "Reference" "MH103" (id 0) (at 303.5301 252.73 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -829,6 +838,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 300.99 257.81 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "481ffff8-7df4-433c-b4c1-d1e6d8f67524")
     (property "Reference" "MH104" (id 0) (at 303.5301 257.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -845,6 +855,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 251.46 81.28 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "0d6cbac9-8732-43b7-a56c-d12dc65eebf0")
     (property "Reference" "C101" (id 0) (at 253.7842 80.1306 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -861,6 +872,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 187.96 89.535 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005dac8df3")
     (property "Reference" "J103" (id 0) (at 190.0428 81.4832 0))
     (property "Value" "Conn_01x04" (id 1) (at 190.0428 83.7946 0))
@@ -873,6 +885,7 @@
   )
 
   (symbol (lib_name "Connector_Generic:Conn_01x04_1") (lib_id "Connector_Generic:Conn_01x06") (at 190.5 39.37 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005d3adb31")
     (property "Reference" "J102" (id 0) (at 192.532 28.8098 0))
     (property "Value" "MASTER" (id 1) (at 192.532 31.1085 0))
@@ -885,6 +898,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x05_Odd_Even") (at 229.87 38.735 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005dc0fee1")
     (property "Reference" "J101" (id 0) (at 231.14 28.1432 0))
     (property "Value" "RPI" (id 1) (at 231.14 30.4546 0))
@@ -897,6 +911,7 @@
   )
 
   (symbol (lib_id "74xx_IEEE:74HC238") (at 217.17 78.105 0) (unit 1)
+    (in_bom yes) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005dad2f16")
     (property "Reference" "U101" (id 0) (at 223.52 66.675 0))
     (property "Value" "74HC238" (id 1) (at 223.52 69.215 0))
@@ -911,10 +926,10 @@
   (sheet (at 30.48 24.13) (size 32.385 18.415)
     (stroke (width 0.001) (type solid) (color 132 0 132 1))
     (fill (color 255 255 255 0.0000))    (uuid 4cc163d2-82fe-4bdf-9cb4-992924d604e9)
-    (property "Sheet name" "PORT0" (id 0) (at 30.48 23.4941 0)
+    (property "Schaltplanname" "PORT0" (id 0) (at 30.48 23.4941 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "port0.kicad_sch" (id 1) (at 30.48 43.0539 0)
+    (property "Dateiname Blatt" "port0.kicad_sch" (id 1) (at 30.48 43.0539 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "CMDM" input (at 62.865 27.94 0)
@@ -936,6 +951,38 @@
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (pin "PORT_0" input (at 62.865 40.64 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+  )
+
+  (sheet (at 30.48 50.8) (size 32.385 18.415)
+    (stroke (width 0.001) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))    (uuid 0d06215e-2609-45cb-a521-fe430b9d8e4e)
+    (property "Schaltplanname" "PORT1" (id 0) (at 30.48 50.1641 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Dateiname Blatt" "port1.kicad_sch" (id 1) (at 30.48 69.7239 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "CMDM" input (at 62.865 54.61 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (pin "DAT0M" input (at 62.865 56.515 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (pin "DAT1M" input (at 62.865 58.42 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (pin "DAT3M" input (at 62.865 62.23 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (pin "DAT2M" input (at 62.865 60.325 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (pin "CLKM" input (at 62.865 52.705 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (pin "SEL" input (at 62.865 67.31 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
   )
@@ -1063,6 +1110,42 @@
     )
     (path "/4cc163d2-82fe-4bdf-9cb4-992924d604e9/b1a4de02-5502-41ce-a21a-18ab312ca3bd"
       (reference "U202") (unit 1)
+    )
+    (path "/0d06215e-2609-45cb-a521-fe430b9d8e4e/0c82e2a2-404d-4ce5-97c4-3860cc618c84"
+      (reference "#PWR?") (unit 1)
+    )
+    (path "/0d06215e-2609-45cb-a521-fe430b9d8e4e/4ffff5d3-b23f-4ba8-99e7-26180401a252"
+      (reference "#PWR?") (unit 1)
+    )
+    (path "/0d06215e-2609-45cb-a521-fe430b9d8e4e/6a7dd4ef-823c-4704-bde1-ca9710612f65"
+      (reference "#PWR?") (unit 1)
+    )
+    (path "/0d06215e-2609-45cb-a521-fe430b9d8e4e/b057ceb6-e5d9-442f-bb1e-5687f793fac7"
+      (reference "#PWR?") (unit 1)
+    )
+    (path "/0d06215e-2609-45cb-a521-fe430b9d8e4e/b196c9ab-59f2-47b6-b3e2-7d283d0cad27"
+      (reference "#PWR?") (unit 1)
+    )
+    (path "/0d06215e-2609-45cb-a521-fe430b9d8e4e/d684436b-66bf-4b4a-b58a-48e47ede037e"
+      (reference "#PWR?") (unit 1)
+    )
+    (path "/0d06215e-2609-45cb-a521-fe430b9d8e4e/ecf73a16-42b6-4ce7-99af-d8cf2430004d"
+      (reference "#PWR?") (unit 1)
+    )
+    (path "/0d06215e-2609-45cb-a521-fe430b9d8e4e/45cc6203-ddd8-4871-8ba1-52c443bf1558"
+      (reference "C201") (unit 1)
+    )
+    (path "/0d06215e-2609-45cb-a521-fe430b9d8e4e/7e85245e-9b8d-4d54-a3d2-3065a99c1247"
+      (reference "C202") (unit 1)
+    )
+    (path "/0d06215e-2609-45cb-a521-fe430b9d8e4e/cbbb4300-2d8e-40f5-a40b-652a41a0fd44"
+      (reference "J201") (unit 1)
+    )
+    (path "/0d06215e-2609-45cb-a521-fe430b9d8e4e/8b070f2b-d8e0-48c7-8842-39af4c5641dd"
+      (reference "JP201") (unit 1)
+    )
+    (path "/0d06215e-2609-45cb-a521-fe430b9d8e4e/237df54c-f3c2-4fee-bdc0-b37b04b0d6c1"
+      (reference "U?") (unit 1)
     )
   )
 )

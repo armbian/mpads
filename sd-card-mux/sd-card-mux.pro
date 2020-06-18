@@ -1,6 +1,6 @@
-update=Thursday, 18 June 2020 at 17:50:27
+update=18.06.2020 21:01:01
 version=1
-last_client=kicad
+last_client=eeschema
 [general]
 version=1
 RootSch=
@@ -23,11 +23,6 @@ SpiceAjustPassiveValues=0
 LabSize=50
 ERC_TestSimilarLabels=1
 [LibeditFrame]
-version=1
-[sheetnames]
-1=91f3f6c0-d3da-459a-87f6-68cad9953af7:
-2=4cc163d2-82fe-4bdf-9cb4-992924d604e9:PORT0
-[SchematicFrame]
 version=1
 [PcbFrame]
 version=1
@@ -350,3 +345,9 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
+[SchematicFrame]
+version=1
+[sheetnames]
+1=5fd59b03-e25f-4790-b70b-12c98b17dc1a:
+2=4cc163d2-82fe-4bdf-9cb4-992924d604e9:PORT0
+3=0d06215e-2609-45cb-a521-fe430b9d8e4e:PORT1
