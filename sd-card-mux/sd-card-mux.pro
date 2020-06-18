@@ -1,4 +1,4 @@
-update=Thursday, 18 June 2020 at 17:20:05
+update=Thursday, 18 June 2020 at 17:50:27
 version=1
 last_client=kicad
 [general]
@@ -28,6 +28,8 @@ version=1
 1=91f3f6c0-d3da-459a-87f6-68cad9953af7:
 2=4cc163d2-82fe-4bdf-9cb4-992924d604e9:PORT0
 [SchematicFrame]
+version=1
+[PcbFrame]
 version=1
 [pcbnew]
 version=1
