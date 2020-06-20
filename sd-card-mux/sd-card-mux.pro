@@ -1,6 +1,6 @@
-update=18.06.2020 21:01:01
+update=20.06.2020 12:44:31
 version=1
-last_client=eeschema
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -26,6 +26,12 @@ ERC_TestSimilarLabels=1
 version=1
 [PcbFrame]
 version=1
+[SchematicFrame]
+version=1
+[sheetnames]
+1=4a1c3b1e-3ec1-491e-ab76-1e5321b119ff:
+2=4cc163d2-82fe-4bdf-9cb4-992924d604e9:PORT0
+3=018b7538-1db6-4986-862c-4e34c97dfb82:PORT1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -121,6 +127,12 @@ TrackWidth6=0.7
 TrackWidth7=1
 ViaDiameter1=0.5
 ViaDrill1=0.3
+ViaDiameter2=0.5
+ViaDrill2=0.3
+ViaDiameter3=0.8
+ViaDrill3=0.5
+ViaDiameter4=1
+ViaDrill4=0.8
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
@@ -155,7 +167,7 @@ DimensionPrecision=1
 SolderMaskClearance=0.09999999999999999
 SolderMaskMinWidth=0.3
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=2
@@ -345,9 +357,3 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[SchematicFrame]
-version=1
-[sheetnames]
-1=5fd59b03-e25f-4790-b70b-12c98b17dc1a:
-2=4cc163d2-82fe-4bdf-9cb4-992924d604e9:PORT0
-3=0d06215e-2609-45cb-a521-fe430b9d8e4e:PORT1

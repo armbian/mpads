@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name "MAX4849")(type "Legacy")(uri "C:/Users/Jannis/Nextcloud/Projects/armbian-testing/mpads/sd-card-mux/MAX4948ERA/2020-06-18_18-39-25.lib")(options "")(descr ""))
+  (lib (name "MAX4948ETG")(type "KiCad")(uri "${KIPRJMOD}/LIBRARY/MAX4948ETG.kicad_sym")(options "")(descr ""))
+  (lib (name "MOLEX_47219-2001")(type "KiCad")(uri "${KIPRJMOD}/LIBRARY/MOLEX_47219-2001.kicad_sym")(options "")(descr ""))
 )
