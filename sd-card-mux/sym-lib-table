@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name "MAX4948ETG")(type "KiCad")(uri "${KIPRJMOD}/LIBRARY/MAX4948ETG.kicad_sym")(options "")(descr ""))
   (lib (name "MOLEX_47219-2001")(type "KiCad")(uri "${KIPRJMOD}/LIBRARY/MOLEX_47219-2001.kicad_sym")(options "")(descr ""))
+  (lib (name "47309-2285")(type "KiCad")(uri "${KIPRJMOD}/LIBRARY/47309-2285.kicad_sym")(options "")(descr ""))
 )

@@ -1,4 +1,4 @@
-update=20.06.2020 12:44:31
+update=21.06.2020 15:19:55
 version=1
 last_client=kicad
 [general]
@@ -22,16 +22,14 @@ NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
 LabSize=50
 ERC_TestSimilarLabels=1
-[LibeditFrame]
-version=1
 [PcbFrame]
+version=1
+[ModEditFrame]
 version=1
 [SchematicFrame]
 version=1
-[sheetnames]
-1=4a1c3b1e-3ec1-491e-ab76-1e5321b119ff:
-2=4cc163d2-82fe-4bdf-9cb4-992924d604e9:PORT0
-3=018b7538-1db6-4986-862c-4e34c97dfb82:PORT1
+[LibeditFrame]
+version=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -167,7 +165,7 @@ DimensionPrecision=1
 SolderMaskClearance=0.09999999999999999
 SolderMaskMinWidth=0.3
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=2
@@ -357,3 +355,7 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
+[sheetnames]
+1=bc7a0d1a-3733-4737-91d5-899047f51dd8:
+2=4cc163d2-82fe-4bdf-9cb4-992924d604e9:PORT0
+3=72a24850-aa30-4b31-b19c-f4c3d840387f:PORT1
