@@ -1,4 +1,4 @@
-update=21.06.2020 15:19:55
+update=22.06.2020 10:38:33
 version=1
 last_client=kicad
 [general]
@@ -26,10 +26,20 @@ ERC_TestSimilarLabels=1
 version=1
 [ModEditFrame]
 version=1
-[SchematicFrame]
-version=1
 [LibeditFrame]
 version=1
+[SchematicFrame]
+version=1
+[sheetnames]
+1=383895ee-72fb-499c-9183-a3170a173e24:
+2=4cc163d2-82fe-4bdf-9cb4-992924d604e9:PORT0
+3=72a24850-aa30-4b31-b19c-f4c3d840387f:PORT1
+4=9efb8bb6-41f6-4212-825b-dddff825f832:PORT2
+5=877a1702-1ccd-46ee-b306-97d7bfd8c07d:PORT3
+6=01c0e4c7-2442-46fb-bca1-808a9b3b87ca:PORT4
+7=c9f74ee8-6ff9-49ca-82d9-c5b1df80b4ac:PORT5
+8=6ccfab58-a835-4514-9fae-098035c8b3f4:PORT6
+9=4e6f971a-0b69-4228-b79a-b3c786632704:PORT7
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -355,7 +365,3 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[sheetnames]
-1=bc7a0d1a-3733-4737-91d5-899047f51dd8:
-2=4cc163d2-82fe-4bdf-9cb4-992924d604e9:PORT0
-3=72a24850-aa30-4b31-b19c-f4c3d840387f:PORT1
