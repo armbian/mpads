@@ -8,9 +8,9 @@
     </head>
     <body>
     <h1>C:\Users\qarkraj\Documents\GitHub\mpads\serial-mux\serial-mux.kicad_sch</h1>
-    <p>15.06.2020 14:37:35</p>
-    <p>Eeschema (5.99.0-1939-g8bd9b2671)</p>
-    <p><b>Component Count:</b>84</p>
+    <p>22.06.2020 11:23:57</p>
+    <p>Eeschema (5.99.0-1973-g8c57821e9)</p>
+    <p><b>Component Count:</b>83</p>
     <table>
     <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
     <tr><td>C101, C102, C103, C104</td><td>4</td><td>100n</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
@@ -20,7 +20,6 @@
     <tr><td>J1</td><td>1</td><td>VIN</td><td>Connector:Screw_Terminal_01x02</td><td>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal</td><td>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
     <tr><td>J2, J4, J6, J7, J8, J9, J10, J11</td><td>8</td><td>PORT0</td><td>Connector_Generic:Conn_01x04</td><td>Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</td><td>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
     <tr><td>J3</td><td>1</td><td>RPI</td><td>Connector_Generic:Conn_02x05_Odd_Even</td><td>Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical</td><td>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
-    <tr><td>J5</td><td>1</td><td>PORT0</td><td>Connector_Generic:Conn_01x04</td><td>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</td><td>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
     <tr><td>J12</td><td>1</td><td>Conn_01x03</td><td>Connector_Generic:Conn_01x03</td><td>Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
     <tr><td>J13</td><td>1</td><td>Conn_02x03_Counter_Clockwise</td><td>Connector_Generic:Conn_02x03_Odd_Even</td><td>Connector_PinHeader_2.00mm:PinHeader_2x03_P2.00mm_Vertical</td><td>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
     <tr><td>Q1, Q2, Q5, Q6, Q9, Q10, Q13, Q14</td><td>8</td><td>AO4407A</td><td>Transistor_FET:IRF7404</td><td>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</td><td>-6.7A Id, -20V Vds, P-Channel HEXFET Power MOSFET, SO-8</td><td></td></tr>

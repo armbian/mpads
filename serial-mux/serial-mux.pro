@@ -16,8 +16,6 @@ LibDir=
 version=1
 [ModEditFrame]
 version=1
-[sheetnames]
-1=f588a050-2f27-43b7-b82b-588a8c44698c:
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -368,3 +366,5 @@ ERC_CheckBusDriverConflicts=1
 ERC_CheckBusEntryConflicts=1
 ERC_CheckBusToBusConflicts=1
 ERC_CheckBusToNetConflicts=1
+[sheetnames]
+1=172ddea8-1a8e-4497-aa63-f438e03191a0:

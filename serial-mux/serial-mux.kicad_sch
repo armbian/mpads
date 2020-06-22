@@ -1552,14 +1552,14 @@
   (junction (at 245.11 21.59))
   (junction (at 245.11 57.15))
 
-  (no_connect (at 33.02 52.07))
   (no_connect (at 87.63 44.45))
-  (no_connect (at 87.63 46.99))
   (no_connect (at 119.38 151.13))
-  (no_connect (at 123.19 62.23))
-  (no_connect (at 123.19 64.77))
-  (no_connect (at 123.19 67.31))
   (no_connect (at 123.19 69.85))
+  (no_connect (at 123.19 64.77))
+  (no_connect (at 123.19 62.23))
+  (no_connect (at 123.19 67.31))
+  (no_connect (at 33.02 52.07))
+  (no_connect (at 87.63 46.99))
 
   (wire (pts (xy 17.78 156.21) (xy 27.94 156.21))
     (stroke (width 0) (type solid) (color 0 0 0 0))
@@ -3414,7 +3414,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 271.145 33.02 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid "86decb87-d115-4292-81b0-909a233f5a1a")
     (property "Reference" "FID101" (id 0) (at 273.3041 31.8706 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3434,7 +3434,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 271.145 38.1 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid "6838e704-86de-4875-9a45-15ddd541b865")
     (property "Reference" "FID102" (id 0) (at 273.3041 36.9506 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3454,7 +3454,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 271.145 43.18 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid "f8ec5930-dd91-444d-bcff-b509a1946cf7")
     (property "Reference" "FID103" (id 0) (at 273.3041 42.0306 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3474,7 +3474,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 271.145 48.26 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid "8fd5c16b-767d-45e0-a7ef-22ccddf4e616")
     (property "Reference" "FID104" (id 0) (at 273.3041 47.1106 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4040,7 +4040,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 271.78 53.975 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005f0b05b2")
     (property "Reference" "H1" (id 0) (at 274.32 52.8066 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4060,7 +4060,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 271.78 58.42 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005f0b5796")
     (property "Reference" "H2" (id 0) (at 274.32 57.2516 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4080,7 +4080,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 271.78 62.865 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005f0b5240")
     (property "Reference" "H3" (id 0) (at 274.32 61.6966 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4100,7 +4100,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 271.78 67.31 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid "00000000-0000-0000-0000-00005f0b5e51")
     (property "Reference" "H4" (id 0) (at 274.32 66.1416 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4360,7 +4360,7 @@
   )
 
   (symbol (lib_id "Graphic:SYM_ESD_Small") (at 271.78 19.685 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid "3dbc5896-866e-436d-96ed-875e5eab9ed1")
     (property "Reference" "SYM101" (id 0) (at 271.78 16.129 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4380,7 +4380,7 @@
   )
 
   (symbol (lib_id "Graphic:SYM_ESD_Small") (at 271.78 26.67 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid "e304c39c-83e6-4daf-856b-248126126d1b")
     (property "Reference" "SYM102" (id 0) (at 271.78 23.114 0)
       (effects (font (size 1.27 1.27)) hide)

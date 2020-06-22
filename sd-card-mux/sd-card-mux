@@ -1,0 +1,44 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>KiCad BOM Example 5</title>
+    </head>
+    <body>
+    <h1>C:\Users\qarkraj\Documents\GitHub\mpads\sd-card-mux\sd-card-mux.kicad_sch</h1>
+    <p>22.06.2020 16:36:07</p>
+    <p>Eeschema (5.99.0-1973-g8c57821e9)</p>
+    <p><b>Component Count:</b>121</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
+    <tr><td>C1, C2, C4, C5, C9, C10, C17, C101, C202, C302, C402, C502, C602, C702, C802, C902</td><td>16</td><td>100n</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0402_1005Metric</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C3, C6</td><td>2</td><td>10u</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0805_2012Metric</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C7, C8</td><td>2</td><td>12p</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0402_1005Metric</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>C201, C301, C401, C501, C601, C701, C801, C901</td><td>8</td><td>1u</td><td>Device:C_Small</td><td>Capacitor_SMD:C_0402_1005Metric</td><td>Unpolarized capacitor, small symbol</td><td></td></tr>
+    <tr><td>D1</td><td>1</td><td>BAT54</td><td>Device:D_Schottky_x2_KCom_AAK</td><td>Package_TO_SOT_SMD:SOT-23</td><td>Dual Schottky diode, common cathode on pin 3</td><td></td></tr>
+    <tr><td>F1</td><td>1</td><td>500m</td><td>Device:Fuse_Small</td><td>Fuse:Fuse_0805_2012Metric</td><td>Fuse, small symbol</td><td></td></tr>
+    <tr><td>FB1</td><td>1</td><td>100@100Mhz</td><td>Device:Ferrite_Bead</td><td>Inductor_SMD:L_0805_2012Metric</td><td>Ferrite bead</td><td></td></tr>
+    <tr><td>FID101, FID102, FID103, FID104</td><td>4</td><td>Fiducial</td><td>Mechanical:Fiducial</td><td>Fiducial:Fiducial_1.5mm_Mask3mm</td><td>Fiducial Marker</td><td></td></tr>
+    <tr><td>J1</td><td>1</td><td>Lumberg 2411 06</td><td>Connector:USB_A</td><td>Connector_USB:USB_B_Lumberg_2411_02_Horizontal</td><td>USB Type A connector</td><td></td></tr>
+    <tr><td>J2</td><td>1</td><td>RPI</td><td>Connector_Generic:Conn_02x05_Odd_Even</td><td>Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical</td><td>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J101</td><td>1</td><td>IWD</td><td>Connector_Generic:Conn_01x04</td><td>Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical</td><td>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J102</td><td>1</td><td>Conn_01x03</td><td>Connector_Generic:Conn_01x03</td><td>footprints:PinHeader_1x03_P2.00mm_Vertical</td><td>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J103</td><td>1</td><td>Conn_02x03_Counter_Clockwise</td><td>Connector_Generic:Conn_02x03_Odd_Even</td><td>footprints:PinHeader_2x03_P2.00mm_Vertical</td><td>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>J201, J301, J401, J501, J601, J701, J801, J901</td><td>8</td><td>47309-2285</td><td>47309-2285:47309-2285</td><td>footprints:47309-2285</td><td></td><td></td></tr>
+    <tr><td>JP101, JP201, JP301, JP401, JP501, JP601, JP701, JP801, JP901</td><td>9</td><td>PORTx</td><td>Connector_Generic:Conn_01x08</td><td>footprints:ConnectorMicromatch-8</td><td>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</td><td></td></tr>
+    <tr><td>MH101, MH102, MH103, MH104</td><td>4</td><td>MountingHole_Pad</td><td>Mechanical:MountingHole_Pad</td><td>MountingHole:MountingHole_3.2mm_M3</td><td>Mounting Hole with connection</td><td></td></tr>
+    <tr><td>R1</td><td>1</td><td>220R</td><td>Device:R_Small</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R2, R3</td><td>2</td><td>2k2</td><td>Device:R_Small</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R8, R10, R101, R102</td><td>4</td><td>10k</td><td>Device:R_Small</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>R103</td><td>1</td><td>0R</td><td>Device:R_Small</td><td>Resistor_SMD:R_0402_1005Metric</td><td>Resistor, small symbol</td><td></td></tr>
+    <tr><td>U7</td><td>1</td><td>STM32F103RCTx</td><td>MCU_ST_STM32F1:STM32F103RCTx</td><td>Package_QFP:LQFP-64_10x10mm_P0.5mm</td><td>ARM Cortex-M3 MCU, 256KB flash, 48KB RAM, 72MHz, 2-3.6V, 51 GPIO, LQFP-64</td><td></td></tr>
+    <tr><td>U8</td><td>1</td><td>AP1117-33</td><td>Regulator_Linear:AP1117-33</td><td>Package_TO_SOT_SMD:SOT-223-3_TabPin2</td><td>1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223</td><td></td></tr>
+    <tr><td>U101</td><td>1</td><td>MCP23008-xSS</td><td>Interface_Expansion:MCP23008-xSS</td><td>Package_SO:SSOP-20_5.3x7.2mm_P0.65mm</td><td>8-bit I/O expander, I2C, interrupts, SSOP-20</td><td></td></tr>
+    <tr><td>U201, U202, U203, U204, U205, U206, U301, U302, U303, U304, U305, U306, U401, U402, U403, U404, U405, U406, U501, U502, U503, U504, U505, U506, U601, U602, U603, U604, U605, U606, U701, U702, U703, U704, U705, U706, U801, U802, U803, U804, U805, U806, U901, U902, U903, U904, U905, U906</td><td>48</td><td>74LVC1G3157</td><td>74LVC1G3157:74LVC1G3157</td><td>Package_TO_SOT_SMD:SOT-363_SC-70-6</td><td>SPDT Analog Swich, Low-Voltage CMOS</td><td></td></tr>
+    <tr><td>Y1</td><td>1</td><td>16M</td><td>Device:Crystal_GND24</td><td>Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm</td><td>Four pin crystal, GND on pins 2 and 4</td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    
