@@ -1729,10 +1729,10 @@
   (junction (at 254 112.395))
   (junction (at 254 114.935))
 
-  (no_connect (at 182.88 28.575))
   (no_connect (at 167.64 36.195))
-  (no_connect (at 167.64 38.735))
   (no_connect (at 180.34 36.195))
+  (no_connect (at 167.64 38.735))
+  (no_connect (at 182.88 28.575))
 
   (wire (pts (xy 42.545 142.875) (xy 42.545 144.145))
     (stroke (width 0) (type solid) (color 0 0 0 0))
