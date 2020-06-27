@@ -1,4 +1,4 @@
-update=23.06.2020 15:53:05
+update=27.06.2020 10:41:32
 version=1
 last_client=kicad
 [general]
@@ -43,7 +43,7 @@ ERC_CheckBusToNetConflicts=1
 [LibeditFrame]
 version=1
 [sheetnames]
-1=eda16537-d8eb-4fc2-a643-2a0de4c5cfe1:
+1=58aef44f-f88d-4bbb-a603-d867e73599dc:
 2=4cc163d2-82fe-4bdf-9cb4-992924d604e9:PORT0
 3=72a24850-aa30-4b31-b19c-f4c3d840387f:PORT1
 4=9efb8bb6-41f6-4212-825b-dddff825f832:PORT2
