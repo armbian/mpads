@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 22)
+    (drawings 23)
     (tracks 213)
     (modules 9)
     (nets 9)
@@ -21,7 +21,7 @@
     (38 "B.Mask" user)
     (39 "F.Mask" user)
     (40 "Dwgs.User" user hide)
-    (41 "Cmts.User" user hide)
+    (41 "Cmts.User" user)
     (42 "Eco1.User" user)
     (43 "Eco2.User" user)
     (44 "Edge.Cuts" user)
@@ -44,7 +44,7 @@
       (copper_finish "None")
       (dielectric_constraints no)
     )
-    (last_trace_width 0.17)
+    (last_trace_width 0.25)
     (user_trace_width 0.17)
     (user_trace_width 0.25)
     (trace_clearance 0.2)
@@ -290,6 +290,9 @@
       (net 8 "/DAT1S") (pinfunction "Pin_1") (tstamp 512c3af9-bc64-445e-b63d-a0927dd1e79b))
   )
 
+  (gr_text "PCB thickness 1mm" (at 164.88 101.84) (layer "Cmts.User") (tstamp b3908406-028c-47d4-b829-de6383865756)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_text "Armbian\nuSD\nadapter" (at 150.8 111.8) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-00005d408632)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )

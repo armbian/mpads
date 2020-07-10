@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.2)
-    (drawings 38)
+    (drawings 39)
     (tracks 1033)
     (modules 83)
     (nets 80)
@@ -3959,6 +3959,9 @@
     )
   )
 
+  (gr_text "JLCJLCJLCJLC" (at 40 86 270) (layer "B.SilkS") (tstamp d1831d34-0440-474f-9eb4-874dfe982695)
+    (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
+  )
   (gr_text "H" (at 42.25 96.25 270) (layer "B.SilkS") (tstamp 88d1bff3-718f-4b38-9346-64bea9120aef)
     (effects (font (size 0.7 0.7) (thickness 0.175)) (justify left mirror))
   )
