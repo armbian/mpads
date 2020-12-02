@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScratchFile FileVersion="3.0">
+  <FileVersion>3.0</FileVersion>
+  <Workspace>
+    <WorkspaceType>Single-project</WorkspaceType>
+    <WorkspacePath>C:\Users\Jannis\Nextcloud\Projects\armbian-testing\usb2sdio\USB2SDIO\</WorkspacePath>
+    <underRoot>true</underRoot>
+    <TrustZone>0</TrustZone>
+    <HAL_Driver>C:\Users\Jannis\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.3\</HAL_Driver>
+    <CMSIS>Drivers/CMSIS</CMSIS>
+    <Toolchain>STM32CubeIDE</Toolchain>
+    <IocFile>USB2SDIO.ioc</IocFile>
+    <Project>
+      <ProjectName>USB2SDIO</ProjectName>
+      <ProjectNature>C</ProjectNature>
+      <Secure />
+      <filestoremove>
+        <file>
+          <name>..\Core\Src\main.c</name>
+        </file>
+        <file>
+          <name>..\USB_DEVICE\App\usb_device.c</name>
+        </file>
+        <file>
+          <name>..\USB_DEVICE\Target\usbd_conf.c</name>
+        </file>
+        <file>
+          <name>..\USB_DEVICE\App\usbd_desc.c</name>
+        </file>
+        <file>
+          <name>..\USB_DEVICE\App\usbd_storage_if.c</name>
+        </file>
+        <file>
+          <name>..\Core\Src\stm32f1xx_it.c</name>
+        </file>
+        <file>
+          <name>..\Core\Src\stm32f1xx_hal_msp.c</name>
+        </file>
+        <file>
+          <name>..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c</name>
+        </file>
+        <file>
+          <name>..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.c</name>
+        </file>
+        <file>
+          <name>..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd_ex.c</name>
+        </file>
+        <file>
+          <name>..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.c</name>
+        </file>
+        <file>
+          <name>..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c</name>
+        </file>
+        <file>
+          <name>..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c</name>
+        </file>
+        <file>
+          <name>..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c</name>
+        </file>
+        <file>
+          <name>..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c</name>
+        </file>
+        <file>
+          <name>..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c</name>
+        </file>
+        <file>
+          <name>..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c</name>
+        </file>
+        <file>
+          <name>..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c</name>
+        </file>
+        <file>
+          <name>..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c</name>
+        </file>
+        <file>
+          <name>..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c</name>
+        </file>
+        <file>
+          <name>..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c</name>
+        </file>
+        <file>
+          <name>..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_sdmmc.c</name>
+        </file>
+        <file>
+          <name>..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_sd.c</name>
+        </file>
+        <file>
+          <name>..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c</name>
+        </file>
+        <file>
+          <name>..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c</name>
+        </file>
+        <file>
+          <name>..\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c</name>
+        </file>
+        <file>
+          <name>..\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c</name>
+        </file>
+        <file>
+          <name>..\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c</name>
+        </file>
+        <file>
+          <name>..\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc.c</name>
+        </file>
+        <file>
+          <name>..\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_bot.c</name>
+        </file>
+        <file>
+          <name>..\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_data.c</name>
+        </file>
+        <file>
+          <name>..\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_scsi.c</name>
+        </file>
+        <file>
+          <name>..\Core\Src\system_stm32f1xx.c</name>
+        </file>
+        <file>
+          <name>..\Drivers\CMSIS\Device\ST\STM32F1xx\Source\Templates\system_stm32f1xx.c</name>
+        </file>
+      </filestoremove>
+      <sourceEntriesToRemove>
+        <sourceEntry />
+      </sourceEntriesToRemove>
+      <configs>
+        <config>
+          <name>USB2SDIO</name>
+          <mainSourceRepo>Core</mainSourceRepo>
+          <sourceStructure>Advanced</sourceStructure>
+          <device>STM32F103RCTx</device>
+          <cpucore>Arm Cortex-M3</cpucore>
+          <fpu>None</fpu>
+          <memories>
+            <memory access="xrw" name="RAM" size="48" start="0x20000000" />
+            <memory access="rx" name="FLASH" size="256" start="0x8000000" />
+          </memories>
+          <startup>C:\Users\Jannis\STM32Cube\Repository\STM32Cube_FW_F1_V1.8.3\Drivers\CMSIS\Device\ST\STM32F1xx\Source\Templates\gcc\startup_stm32f103xe.s</startup>
+          <LinkSettings>
+            <icfloc>1</icfloc>
+            <LinkAdditionalLibs />
+          </LinkSettings>
+          <heapSize>0x200</heapSize>
+          <stackSize>0x400</stackSize>
+          <board>custom</board>
+          <debugprobe />
+          <optimization />
+          <Aincludes>
+            <include />
+          </Aincludes>
+          <Adefines />
+          <Cdefines>
+            <define>USE_HAL_DRIVER</define>
+            <define>STM32F103xE</define>
+          </Cdefines>
+          <Ldefines />
+          <Cincludes>
+            <include>USB_DEVICE\App</include>
+            <include>USB_DEVICE\Target</include>
+            <include>Core\Inc</include>
+            <include>Drivers\STM32F1xx_HAL_Driver\Inc</include>
+            <include>Drivers\STM32F1xx_HAL_Driver\Inc\Legacy</include>
+            <include>Middlewares\ST\STM32_USB_Device_Library\Core\Inc</include>
+            <include>Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Inc</include>
+            <include>Drivers\CMSIS\Device\ST\STM32F1xx\Include</include>
+            <include>Drivers\CMSIS\Include</include>
+          </Cincludes>
+          <definestoremove>
+            <Adefines />
+            <Cdefines>
+              <define>USE_FULL_LL_DRIVER</define>
+              <define>MBEDTLS_CONFIG_FILE="mbedtls_config.h"</define>
+              <define>USE_FULL_ASSERT=1U</define>
+            </Cdefines>
+            <Ldefines />
+          </definestoremove>
+          <inctoremove>
+            <Aincludes>
+              <include />
+            </Aincludes>
+            <Cincludes />
+          </inctoremove>
+        </config>
+      </configs>
+      <copyAsReference>false</copyAsReference>
+      <sourceEntries>
+        <sourceEntry>
+          <name>Core</name>
+        </sourceEntry>
+        <sourceEntry>
+          <name>Drivers</name>
+        </sourceEntry>
+        <sourceEntry>
+          <name>Middlewares</name>
+        </sourceEntry>
+        <sourceEntry>
+          <name>USB_DEVICE</name>
+        </sourceEntry>
+      </sourceEntries>
+      <Groups />
+    </Project>
+  </Workspace>
+</ScratchFile>
+
