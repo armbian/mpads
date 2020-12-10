@@ -1,0 +1,11 @@
+Issues:
+
+Serial Mux:
+- BI input for 7seg needs to be inverted
+- Pins for I2C addr selection use smaller pitch? Why?
+- Resistors for 7seg a bit large? Very dim leds, depends on the 7seg though
+
+SD Mux:
+- Add a reset jumper or btn for the STM32
+- Missing pull up on USB-DP (need 1.5kOhm pullup to 3.3V)  https://www.st.com/resource/en/application_note/dm00296349-usb-hardware-and-pcb-guidelines-using-stm32-mcus-stmicroelectronics.pdf
+- only 1bit SDIO mode working (need to investigate)
