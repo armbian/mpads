@@ -58,8 +58,8 @@ all: main-build
 main-build: USB2SDIO.elf secondary-outputs
 
 # Tool invocations
-USB2SDIO.elf: $(OBJS) $(USER_OBJS) C:\Users\Jannis\STM32CubeIDE\workspace_1.5.0\USB2SDIO\STM32F103RCTX_FLASH.ld
-	arm-none-eabi-gcc -o "USB2SDIO.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Users\Jannis\STM32CubeIDE\workspace_1.5.0\USB2SDIO\STM32F103RCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="USB2SDIO.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+USB2SDIO.elf: $(OBJS) $(USER_OBJS) C:\Users\Jannis\Nextcloud\Projects\armbian-testing\mpads\USB2SDIO\STM32F103RCTX_FLASH.ld
+	arm-none-eabi-gcc -o "USB2SDIO.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\Users\Jannis\Nextcloud\Projects\armbian-testing\mpads\USB2SDIO\STM32F103RCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="USB2SDIO.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
