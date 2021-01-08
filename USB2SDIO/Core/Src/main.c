@@ -33,6 +33,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
+
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -46,7 +47,7 @@ I2C_HandleTypeDef hi2c1;
 SD_HandleTypeDef hsd;
 
 /* USER CODE BEGIN PV */
-
+int selectedSDcard = 0x15;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -60,7 +61,6 @@ static void MX_I2C1_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
 /* USER CODE END 0 */
 
 /**
@@ -96,6 +96,9 @@ int main(void)
   MX_I2C1_Init();
   /* USER CODE BEGIN 2 */
 
+  uint8_t buff[2];
+  buff[0] = 255;
+  buff[1] = 255;
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -105,6 +108,69 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+	HAL_StatusTypeDef status = HAL_I2C_Slave_Receive(&hi2c1, buff, 2, 10);
+	if (status == HAL_OK)
+	{
+		if (buff[0] == 0x01 && selectedSDcard != buff[1]) {
+			// command to connect/disconnect host to sd
+			if (selectedSDcard > 0 && selectedSDcard < 8) {
+				HAL_SD_DeInit(&hsd);
+			}
+
+			selectedSDcard = buff[1];
+
+			// disconnect all sd from master, connect to slaves
+			HAL_GPIO_WritePin(GPIOB, PORT0_Pin|PORT1_Pin|PORT2_Pin, GPIO_PIN_RESET);
+			HAL_GPIO_WritePin(GPIOC, PORT3_Pin|PORT4_Pin, GPIO_PIN_RESET);
+			HAL_GPIO_WritePin(GPIOA, PORT5_Pin|PORT6_Pin|PORT7_Pin, GPIO_PIN_RESET);
+
+
+			// if valid sd number connect master to this sd
+			switch (buff[1]) {
+			case 0:
+				HAL_GPIO_WritePin(PORT0_GPIO_Port, PORT0_Pin, GPIO_PIN_SET);
+				break;
+			case 1:
+				HAL_GPIO_WritePin(PORT1_GPIO_Port, PORT1_Pin, GPIO_PIN_SET);
+				break;
+			case 2:
+				HAL_GPIO_WritePin(PORT2_GPIO_Port, PORT2_Pin, GPIO_PIN_SET);
+				break;
+			case 3:
+				HAL_GPIO_WritePin(PORT3_GPIO_Port, PORT3_Pin, GPIO_PIN_SET);
+				break;
+			case 4:
+				HAL_GPIO_WritePin(PORT4_GPIO_Port, PORT4_Pin, GPIO_PIN_SET);
+				break;
+			case 5:
+				HAL_GPIO_WritePin(PORT5_GPIO_Port, PORT5_Pin, GPIO_PIN_SET);
+				break;
+			case 6:
+				HAL_GPIO_WritePin(PORT6_GPIO_Port, PORT6_Pin, GPIO_PIN_SET);
+				break;
+			case 7:
+				HAL_GPIO_WritePin(PORT7_GPIO_Port, PORT7_Pin, GPIO_PIN_SET);
+				break;
+			default:
+				break;
+			}
+
+			MX_SDIO_SD_Init();
+
+
+		}
+		if (buff[0]==0x02) {
+			//command to get currently selected sd card (if any)
+//			buff[0] = selectedSDcard;
+//			HAL_StatusTypeDef status = HAL_I2C_Slave_Transmit(&hi2c1, buff, 1, 20000);
+//			if (status == HAL_OK)
+//			{
+//				int i = 2;
+//			}
+
+		}
+	}
+
   }
   /* USER CODE END 3 */
 }
@@ -170,9 +236,9 @@ static void MX_I2C1_Init(void)
 
   /* USER CODE END I2C1_Init 1 */
   hi2c1.Instance = I2C1;
-  hi2c1.Init.ClockSpeed = 100000;
+  hi2c1.Init.ClockSpeed = 400000;
   hi2c1.Init.DutyCycle = I2C_DUTYCYCLE_2;
-  hi2c1.Init.OwnAddress1 = 100;
+  hi2c1.Init.OwnAddress1 = 74;
   hi2c1.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
   hi2c1.Init.DualAddressMode = I2C_DUALADDRESS_DISABLE;
   hi2c1.Init.OwnAddress2 = 0;
@@ -197,7 +263,7 @@ static void MX_SDIO_SD_Init(void)
 {
 
   /* USER CODE BEGIN SDIO_Init 0 */
-
+  if (selectedSDcard < 0 || selectedSDcard > 7) return;
   /* USER CODE END SDIO_Init 0 */
 
   /* USER CODE BEGIN SDIO_Init 1 */
@@ -208,9 +274,13 @@ static void MX_SDIO_SD_Init(void)
   hsd.Init.ClockBypass = SDIO_CLOCK_BYPASS_DISABLE;
   hsd.Init.ClockPowerSave = SDIO_CLOCK_POWER_SAVE_DISABLE;
   hsd.Init.BusWide = SDIO_BUS_WIDE_1B;
-  hsd.Init.HardwareFlowControl = SDIO_HARDWARE_FLOW_CONTROL_DISABLE;
-  hsd.Init.ClockDiv = 3;
+  hsd.Init.HardwareFlowControl = SDIO_HARDWARE_FLOW_CONTROL_ENABLE;
+  hsd.Init.ClockDiv = 7;
   if (HAL_SD_Init(&hsd) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  if (HAL_SD_ConfigWideBusOperation(&hsd, SDIO_BUS_WIDE_4B) != HAL_OK)
   {
     Error_Handler();
   }
@@ -236,10 +306,7 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOA_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(PORT0_GPIO_Port, PORT0_Pin, GPIO_PIN_SET);
-
-  /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOB, PORT1_Pin|PORT2_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOB, PORT0_Pin|PORT1_Pin|PORT2_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOC, PORT3_Pin|PORT4_Pin, GPIO_PIN_RESET);
