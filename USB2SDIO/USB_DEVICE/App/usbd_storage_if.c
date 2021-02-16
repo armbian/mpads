@@ -97,19 +97,11 @@
 /** USB Mass storage Standard Inquiry Data. */
 const int8_t STORAGE_Inquirydata_FS[] = {/* 36 */
 
-		/* LUN 0 */
-		0x00,
-		0x80,
-		0x02,
-		0x02,
-		(STANDARD_INQUIRY_DATA_LEN - 5),
-		0x00,
-		0x00,
-		0x00,
-		'S', 'T', 'M', ' ', ' ', ' ', ' ', ' ', /* Manufacturer : 8 bytes */
+/* LUN 0 */
+0x00, 0x80, 0x02, 0x02, (STANDARD_INQUIRY_DATA_LEN - 5), 0x00, 0x00, 0x00, 'S',
+		'T', 'M', ' ', ' ', ' ', ' ', ' ', /* Manufacturer : 8 bytes */
 		'P', 'r', 'o', 'd', 'u', 'c', 't', ' ', /* Product      : 16 Bytes */
-		' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ',
-		'0', '.', '0' ,'1'                      /* Version      : 4 Bytes */
+		' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '0', '.', '0', '1' /* Version      : 4 Bytes */
 };
 /* USER CODE END INQUIRY_DATA_FS */
 
@@ -131,6 +123,7 @@ extern USBD_HandleTypeDef hUsbDeviceFS;
 /* USER CODE BEGIN EXPORTED_VARIABLES */
 extern SD_HandleTypeDef hsd;
 HAL_SD_CardInfoTypeDef SDCardInfo;
+//extern int selectedSDcard;
 /* USER CODE END EXPORTED_VARIABLES */
 
 /**
@@ -194,7 +187,7 @@ int8_t STORAGE_GetCapacity_FS(uint8_t lun, uint32_t *block_num, uint16_t *block_
 {
   /* USER CODE BEGIN 3 */
 	HAL_SD_GetCardInfo(&hsd, &SDCardInfo);
-	*block_num  = SDCardInfo.BlockNbr;
+	*block_num = SDCardInfo.BlockNbr;
 	*block_size = SDCardInfo.BlockSize;
 	return (USBD_OK);
   /* USER CODE END 3 */
@@ -208,7 +201,7 @@ int8_t STORAGE_GetCapacity_FS(uint8_t lun, uint32_t *block_num, uint16_t *block_
 int8_t STORAGE_IsReady_FS(uint8_t lun)
 {
   /* USER CODE BEGIN 4 */
-	return (USBD_OK);
+	return (hsd.State == HAL_SD_STATE_READY) ? (USBD_OK) : (USBD_FAIL);
   /* USER CODE END 4 */
 }
 
@@ -232,9 +225,8 @@ int8_t STORAGE_IsWriteProtected_FS(uint8_t lun)
 int8_t STORAGE_Read_FS(uint8_t lun, uint8_t *buf, uint32_t blk_addr, uint16_t blk_len)
 {
   /* USER CODE BEGIN 6 */
-	HAL_SD_ReadBlocks(&hsd, buf, blk_addr, blk_len, 10);
-	HAL_SD_GetCardState(&hsd);
-	return (USBD_OK);
+	return (HAL_SD_ReadBlocks(&hsd, buf, blk_addr, blk_len, 10) == HAL_OK) ?
+			(USBD_OK) : (USBD_FAIL);
   /* USER CODE END 6 */
 }
 
@@ -246,9 +238,8 @@ int8_t STORAGE_Read_FS(uint8_t lun, uint8_t *buf, uint32_t blk_addr, uint16_t bl
 int8_t STORAGE_Write_FS(uint8_t lun, uint8_t *buf, uint32_t blk_addr, uint16_t blk_len)
 {
   /* USER CODE BEGIN 7 */
-	HAL_SD_WriteBlocks(&hsd, buf, blk_addr, blk_len, 10);
-	HAL_SD_GetCardState(&hsd);
-	return (USBD_OK);
+	return (HAL_SD_WriteBlocks(&hsd, buf, blk_addr, blk_len, 10) == HAL_OK) ?
+			(USBD_OK) : (USBD_FAIL);
   /* USER CODE END 7 */
 }
 

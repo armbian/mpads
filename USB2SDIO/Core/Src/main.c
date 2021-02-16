@@ -113,14 +113,15 @@ int main(void)
 	{
 		if (buff[0] == 0x01 && selectedSDcard != buff[1]) {
 			// command to connect/disconnect host to sd
-			if (selectedSDcard > 0 && selectedSDcard < 8) {
+			if (selectedSDcard >= 0 && selectedSDcard < 8) {
 				HAL_SD_DeInit(&hsd);
 			}
+
 
 			selectedSDcard = buff[1];
 
 			// disconnect all sd from master, connect to slaves
-			HAL_GPIO_WritePin(GPIOB, PORT0_Pin|PORT1_Pin|PORT2_Pin, GPIO_PIN_RESET);
+			HAL_GPIO_WritePin(GPIOB, USB_ENABLE_Pin|PORT0_Pin|PORT1_Pin|PORT2_Pin, GPIO_PIN_RESET);
 			HAL_GPIO_WritePin(GPIOC, PORT3_Pin|PORT4_Pin, GPIO_PIN_RESET);
 			HAL_GPIO_WritePin(GPIOA, PORT5_Pin|PORT6_Pin|PORT7_Pin, GPIO_PIN_RESET);
 
@@ -155,8 +156,10 @@ int main(void)
 				break;
 			}
 
-			MX_SDIO_SD_Init();
-
+			if (selectedSDcard >= 0 && selectedSDcard < 8) {
+				MX_SDIO_SD_Init();
+				HAL_GPIO_WritePin(USB_ENABLE_GPIO_Port, USB_ENABLE_Pin, GPIO_PIN_SET);
+			}
 
 		}
 		if (buff[0]==0x02) {
@@ -306,7 +309,7 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOA_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOB, PORT0_Pin|PORT1_Pin|PORT2_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOB, USB_ENABLE_Pin|PORT0_Pin|PORT1_Pin|PORT2_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOC, PORT3_Pin|PORT4_Pin, GPIO_PIN_RESET);
@@ -314,8 +317,8 @@ static void MX_GPIO_Init(void)
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOA, PORT5_Pin|PORT6_Pin|PORT7_Pin, GPIO_PIN_RESET);
 
-  /*Configure GPIO pins : PORT0_Pin PORT1_Pin PORT2_Pin */
-  GPIO_InitStruct.Pin = PORT0_Pin|PORT1_Pin|PORT2_Pin;
+  /*Configure GPIO pins : USB_ENABLE_Pin PORT0_Pin PORT1_Pin PORT2_Pin */
+  GPIO_InitStruct.Pin = USB_ENABLE_Pin|PORT0_Pin|PORT1_Pin|PORT2_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
